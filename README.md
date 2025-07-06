@@ -1,6 +1,6 @@
 # QuoteSense
 
-**A Multi-Model Pipeline for Emotion Detection in Motivational Quotes**
+**A Multi-Model NLP Pipeline for Emotion Detection in Motivational Quotes**
 
 QuoteSense is an end-to-end NLP pipeline designed to classify emotions in motivational quotes. It integrates traditional ML, deep learning (LSTM), and transformer models (DistilBERT), and introduces stylistic analysis to compare AI-generated and human-written quotes.
 
@@ -32,9 +32,9 @@ Each quote is labeled with an emotion and augmented with four custom features:
 
 | Model             | Accuracy |
 |------------------|----------|
-| Logistic Regression | ~0.70 |
-| LSTM               | ~0.73 |
-| DistilBERT         | ~0.78 |
+| Logistic Regression | 0.83 |
+| LSTM               | 0.8492 |
+| DistilBERT         | 0.92 |
 
 - DistilBERT performed best, especially with abstract/emotive quotes.
 - Human quotes scored higher in creativity and emotional balance.
